@@ -24,12 +24,12 @@ I have tried different alghorithms, and the best performers resulted:
 
 I used Gridsearch brute force method to tune the hyperparameters:
 
-   `-bootstrap=True,
-    -max_depth=70,
-    -max_features='auto'
-    -min_samples_leaf=2,
-    -min_samples_split=2,
-    -n_estimators=700`
+  - `bootstrap=True`
+  - `max_depth=70,`
+  - `max_features='auto'`
+  - `min_samples_leaf=2,`
+  - `min_samples_split=2,`
+  - `n_estimators=700``
     
 ### 3. Neural Network method
 
