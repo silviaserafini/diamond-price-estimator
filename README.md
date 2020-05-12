@@ -1,6 +1,7 @@
 # diamond-price-estimator
 
-This is a machine leaning project to predict a diamond price exploring different methos. 
+This is a machine leaning project to predict a diamond price exploring different methos.
+Diamond database can be found on Kaggle. 
 
 <img src="INPUT/dia.png">
 
@@ -17,15 +18,18 @@ I did different tentatives:
 ### 2. Machine learning methods
 
 I have tried different alghorithms, and the best performers resulted:
+
 - `Random Forest`
 - `Baggings`
+
 I used Gridsearch brute force method to tune the hyperparameters:
-    -bootstrap=True,
+
+   `-bootstrap=True,
     -max_depth=70,
     -max_features='auto'
     -min_samples_leaf=2,
     -min_samples_split=2,
-    -n_estimators=700
+    -n_estimators=700`
     
 ### 3. Neural Network method
 
